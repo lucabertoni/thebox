@@ -17,4 +17,4 @@ const struct option thebox_options[] = {
     {0,			0,			0,	0}
 };
 
-int thebox_generate_id(char* id);
+int thebox_set_settings_from_args(int argc, char **argv, TheBoxSettings *settings);
