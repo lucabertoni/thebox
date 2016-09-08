@@ -74,7 +74,7 @@ cli/preinstall:
 cli/CMakeFiles/theboxcli.dir/all:
 	$(MAKE) -f cli/CMakeFiles/theboxcli.dir/build.make cli/CMakeFiles/theboxcli.dir/depend
 	$(MAKE) -f cli/CMakeFiles/theboxcli.dir/build.make cli/CMakeFiles/theboxcli.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/luca/Scrivania/git/thebox/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/luca/Scrivania/git/thebox/build/CMakeFiles  1 2 3
 	@echo "Built target theboxcli"
 .PHONY : cli/CMakeFiles/theboxcli.dir/all
 
@@ -84,7 +84,7 @@ all: cli/CMakeFiles/theboxcli.dir/all
 
 # Build rule for subdir invocation for target.
 cli/CMakeFiles/theboxcli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luca/Scrivania/git/thebox/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luca/Scrivania/git/thebox/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 cli/CMakeFiles/theboxcli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luca/Scrivania/git/thebox/build/CMakeFiles 0
 .PHONY : cli/CMakeFiles/theboxcli.dir/rule

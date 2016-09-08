@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/luca/Scrivania/git/thebox/src/cli/main.c
-../common/thebox.h
-/home/luca/Scrivania/git/thebox/src/common/thebox.h
-
 /home/luca/Scrivania/git/thebox/src/common/thebox.c
 thebox.h
 /home/luca/Scrivania/git/thebox/src/common/thebox.h
@@ -17,4 +13,8 @@ thebox.h
 /home/luca/Scrivania/git/thebox/src/common/thebox.h
 getopt.h
 -
+thebox_message.h
+/home/luca/Scrivania/git/thebox/src/common/thebox_message.h
+
+/home/luca/Scrivania/git/thebox/src/common/thebox_message.h
 

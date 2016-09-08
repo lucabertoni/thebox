@@ -140,6 +140,30 @@ __/common/thebox.c.s:
 	cd /home/luca/Scrivania/git/thebox/build && $(MAKE) -f cli/CMakeFiles/theboxcli.dir/build.make cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.s
 .PHONY : __/common/thebox.c.s
 
+__/common/thebox_message.o: __/common/thebox_message.c.o
+.PHONY : __/common/thebox_message.o
+
+# target to build an object file
+__/common/thebox_message.c.o:
+	cd /home/luca/Scrivania/git/thebox/build && $(MAKE) -f cli/CMakeFiles/theboxcli.dir/build.make cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o
+.PHONY : __/common/thebox_message.c.o
+
+__/common/thebox_message.i: __/common/thebox_message.c.i
+.PHONY : __/common/thebox_message.i
+
+# target to preprocess a source file
+__/common/thebox_message.c.i:
+	cd /home/luca/Scrivania/git/thebox/build && $(MAKE) -f cli/CMakeFiles/theboxcli.dir/build.make cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.i
+.PHONY : __/common/thebox_message.c.i
+
+__/common/thebox_message.s: __/common/thebox_message.c.s
+.PHONY : __/common/thebox_message.s
+
+# target to generate assembly for a file
+__/common/thebox_message.c.s:
+	cd /home/luca/Scrivania/git/thebox/build && $(MAKE) -f cli/CMakeFiles/theboxcli.dir/build.make cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.s
+.PHONY : __/common/thebox_message.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -176,6 +200,9 @@ help:
 	@echo "... __/common/thebox.o"
 	@echo "... __/common/thebox.i"
 	@echo "... __/common/thebox.s"
+	@echo "... __/common/thebox_message.o"
+	@echo "... __/common/thebox_message.i"
+	@echo "... __/common/thebox_message.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

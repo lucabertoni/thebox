@@ -72,9 +72,32 @@ cli/CMakeFiles/theboxcli.dir/main.c.o.provides: cli/CMakeFiles/theboxcli.dir/mai
 
 cli/CMakeFiles/theboxcli.dir/main.c.o.provides.build: cli/CMakeFiles/theboxcli.dir/main.c.o
 
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o: cli/CMakeFiles/theboxcli.dir/flags.make
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox_message.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/luca/Scrivania/git/thebox/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o"
+	cd /home/luca/Scrivania/git/thebox/build/cli && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o   -c /home/luca/Scrivania/git/thebox/src/common/thebox_message.c
+
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/theboxcli.dir/__/common/thebox_message.c.i"
+	cd /home/luca/Scrivania/git/thebox/build/cli && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/luca/Scrivania/git/thebox/src/common/thebox_message.c > CMakeFiles/theboxcli.dir/__/common/thebox_message.c.i
+
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/theboxcli.dir/__/common/thebox_message.c.s"
+	cd /home/luca/Scrivania/git/thebox/build/cli && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/luca/Scrivania/git/thebox/src/common/thebox_message.c -o CMakeFiles/theboxcli.dir/__/common/thebox_message.c.s
+
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.requires:
+.PHONY : cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.requires
+
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.provides: cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.requires
+	$(MAKE) -f cli/CMakeFiles/theboxcli.dir/build.make cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.provides.build
+.PHONY : cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.provides
+
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.provides.build: cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o
+
 cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o: cli/CMakeFiles/theboxcli.dir/flags.make
 cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/luca/Scrivania/git/thebox/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/luca/Scrivania/git/thebox/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o"
 	cd /home/luca/Scrivania/git/thebox/build/cli && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/theboxcli.dir/__/common/thebox.c.o   -c /home/luca/Scrivania/git/thebox/src/common/thebox.c
 
@@ -98,12 +121,14 @@ cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o.provides.build: cli/CMakeFiles
 # Object files for target theboxcli
 theboxcli_OBJECTS = \
 "CMakeFiles/theboxcli.dir/main.c.o" \
+"CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o" \
 "CMakeFiles/theboxcli.dir/__/common/thebox.c.o"
 
 # External object files for target theboxcli
 theboxcli_EXTERNAL_OBJECTS =
 
 cli/theboxcli: cli/CMakeFiles/theboxcli.dir/main.c.o
+cli/theboxcli: cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o
 cli/theboxcli: cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o
 cli/theboxcli: cli/CMakeFiles/theboxcli.dir/build.make
 cli/theboxcli: cli/CMakeFiles/theboxcli.dir/link.txt
@@ -115,6 +140,7 @@ cli/CMakeFiles/theboxcli.dir/build: cli/theboxcli
 .PHONY : cli/CMakeFiles/theboxcli.dir/build
 
 cli/CMakeFiles/theboxcli.dir/requires: cli/CMakeFiles/theboxcli.dir/main.c.o.requires
+cli/CMakeFiles/theboxcli.dir/requires: cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o.requires
 cli/CMakeFiles/theboxcli.dir/requires: cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o.requires
 .PHONY : cli/CMakeFiles/theboxcli.dir/requires
 

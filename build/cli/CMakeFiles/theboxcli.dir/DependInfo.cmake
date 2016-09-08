@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/luca/Scrivania/git/thebox/src/common/thebox.c" "/home/luca/Scrivania/git/thebox/build/cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o"
+  "/home/luca/Scrivania/git/thebox/src/common/thebox_message.c" "/home/luca/Scrivania/git/thebox/build/cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o"
   "/home/luca/Scrivania/git/thebox/src/cli/main.c" "/home/luca/Scrivania/git/thebox/build/cli/CMakeFiles/theboxcli.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

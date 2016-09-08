@@ -3,7 +3,12 @@
 
 cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox.c
 cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox.h
+cli/CMakeFiles/theboxcli.dir/__/common/thebox.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox_message.h
+
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox_message.c
+cli/CMakeFiles/theboxcli.dir/__/common/thebox_message.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox_message.h
 
 cli/CMakeFiles/theboxcli.dir/main.c.o: /home/luca/Scrivania/git/thebox/src/cli/main.c
 cli/CMakeFiles/theboxcli.dir/main.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox.h
+cli/CMakeFiles/theboxcli.dir/main.c.o: /home/luca/Scrivania/git/thebox/src/common/thebox_message.h
 
