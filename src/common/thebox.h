@@ -1,5 +1,8 @@
 #include <getopt.h>
 
+#ifndef THEBOX_H
+#define THEBOX_H
+
 typedef struct{
     int gen_id;
     int send_message;
@@ -11,10 +14,12 @@ typedef struct{
     char *message_content;
 } TheBoxMessage;
 
-const struct option thebox_options[] = {
+static const struct option thebox_options[] = {
     {"gen-id",		no_argument,		0,	0},
     {"send-message",	optional_argument,	0,	0},
     {0,			0,			0,	0}
 };
 
 int thebox_set_settings_from_args(int argc, char **argv, TheBoxSettings *settings);
+
+#endif

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luca/Scrivania/git/thebox/src/cli/main.c
+../common/thebox.h
+/home/luca/Scrivania/git/thebox/src/common/thebox.h
+
+/home/luca/Scrivania/git/thebox/src/common/thebox.c
+thebox.h
+/home/luca/Scrivania/git/thebox/src/common/thebox.h
+
+/home/luca/Scrivania/git/thebox/src/common/thebox.h
+getopt.h
+-
+
