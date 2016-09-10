@@ -1,4 +1,5 @@
 #include <getopt.h>
+
 #include "thebox_message.h"
 
 #ifndef THEBOX_H
@@ -18,11 +19,14 @@ static const struct option thebox_options[] = {
 };
 
 enum THEBOX_OPTIONS_INDEXES{
-    GEN_ID,
+    GEN_ID = 2,
     SEND_MESSAGE
 };
 
 int thebox_set_options_from_args(int argc, char **argv, TheBoxOptions *options, TheBoxMessage *message);
 
-int thebox_set_option_value(int option, char *option_value, TheBoxOptions *options, TheBoxMessage *message);
+int thebox_set_option_value(enum THEBOX_OPTIONS_INDEXES option, char *option_value, TheBoxOptions *options, TheBoxMessage *message);
+
+void thebox_print_help_usage();
+
 #endif

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo "Start making..."
 echo -e "\e[34m"
 printf '=%.0s' {1..50}

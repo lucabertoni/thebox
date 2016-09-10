@@ -1,1 +1,5 @@
+/home/luca/Scrivania/git/thebox/build/CMakeFiles/edit_cache.dir
+/home/luca/Scrivania/git/thebox/build/CMakeFiles/rebuild_cache.dir
+/home/luca/Scrivania/git/thebox/build/cli/CMakeFiles/edit_cache.dir
+/home/luca/Scrivania/git/thebox/build/cli/CMakeFiles/rebuild_cache.dir
 /home/luca/Scrivania/git/thebox/build/cli/CMakeFiles/theboxcli.dir
